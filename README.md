@@ -1,4 +1,4 @@
-# C++ Data-Structures & Algorithms
+# C++ Data Structures & Algorithms
 
 Welcome to data structures and algorithms repository of Codigo 404 youtube channel.
 We cover some CS basic data structures as arrays/vectors linked lists, stacks, queues, binary search trees, graphs and hash tables. This repo also contains sorting algorithms as swap, selection, insertion, bubble, heap quick and merge, you can also find search algorithms as binary search and sequential sort.

@@ -1,4 +1,4 @@
-# singly Linked List part 1
+# singly Linked List part 1 & part 2
 ## Add at head, add at tail, add by position.
 
 if you want to see full explanation visit this link: https://www.youtube.com/watch?v=ijMvMOIInXo

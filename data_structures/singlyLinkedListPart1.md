@@ -1,4 +1,4 @@
-# singly Linked List part 1 & part 2
+# singly Linked List part 1
 ## Add at head, add at tail, add by position.
 
 if you want to see full explanation visit this link: https://www.youtube.com/watch?v=ijMvMOIInXo
@@ -107,54 +107,7 @@ public:
         }
         cout << endl;
     }
-
-    void eliminarInicio(){
-        Nodo<T>* current = this->head;
-        head = head->getNext();
-        current->setNext(nullptr);
-        delete current;
-        this->size--;
-    }
-
-    void eliminarFinal(){
-        Nodo<T>* current = this->head;
-        while(current->getNext()->getNext() != nullptr){
-            current = current->getNext();
-        }
-        delete current->getNext();
-        current->setNext(nullptr);
-        this->size--;
-    }
-
-    void eliminarPorDato(T valor){
-        if(this->head){
-            Nodo<T>*current = this->head;
-            Nodo<T>*prev;
-            while(current){
-                if(current->getDato() == valor && this->head == current){
-                    eliminarInicio();
-                    break;
-                }
-                else if(current->getDato() == valor && current->getNext() == nullptr){
-                    eliminarFinal();
-                    break;
-                }
-                else if(current->getDato() == valor && current->getNext() != nullptr){
-                    prev->setNext(current->getNext());
-                    current->setNext(nullptr);
-                    delete current;
-                    this->size--;
-                }
-                else{
-                    prev = current;
-                    current = current->getNext();
-                }
-            }
-        }else{
-            cout << "La lista esta vacia" << endl;
-        }
-    }
-   
+    
 };
 
 

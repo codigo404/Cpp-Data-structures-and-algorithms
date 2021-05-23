@@ -1,4 +1,4 @@
-# singly Linked List part 2 | Lista enlazada simple parte 2
+# Singly Linked List part 2 | Lista enlazada simple parte 2
 ## delete head, delete at tail, delete by data | Eliminar inicio, eliminar final, eliminar por dato
 
 if you want to see full explanation visit this link: https://www.youtube.com/watch?v=J8kYAgkxeFs&t=45s

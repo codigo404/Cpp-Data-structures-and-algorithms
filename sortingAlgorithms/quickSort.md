@@ -1,6 +1,6 @@
 # Quick Sort (ordenamiento rápido)
-Para ver la explicacion del codigo visita:
-https://www.youtube.com/watch?v=PupaczLYxmA
+If you want to see a full review of this code visit: https://www.youtube.com/watch?v=PupaczLYxmA&t=2s
+Si quieres ver una explicación completa de este codigo visita: https://www.youtube.com/watch?v=PupaczLYxmA&t=2s
 
 ```C++
 

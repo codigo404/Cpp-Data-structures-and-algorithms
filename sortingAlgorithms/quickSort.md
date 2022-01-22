@@ -4,6 +4,12 @@ Si quieres ver una explicación completa de este codigo visita: https://www.yout
 
 ```C++
 
+void swap(int &a,int &b){
+    int aux = a;
+    a = b;
+    b = aux;
+}
+
 int particion(vector<int>&array,int inicio, int fin){
     int pivote = array[inicio];
     int i = inicio + 1;
